@@ -43,6 +43,8 @@ class HomeViewController: UIViewController, VNDocumentCameraViewControllerDelega
 
             self.view.addSubview(label)
         
+        
+        
         //UITextView scanTextView = 
         //view.insertSubview(scanText, belowSubview: label);
         //view.insertSubview(searchMenus  , belowSubview: scanText);
