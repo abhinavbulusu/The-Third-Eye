@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C856BAE828961C9E000CE23C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856BAE728961C9E000CE23C /* Menu.swift */; };
+		C856BAEA2896D641000CE23C /* RestaurantMenuButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856BAE92896D641000CE23C /* RestaurantMenuButtons.swift */; };
+		C856BAEC28976980000CE23C /* ClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856BAEB28976980000CE23C /* ClearButton.swift */; };
+		C856BAEE289A286B000CE23C /* UpdateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C856BAED289A286B000CE23C /* UpdateButton.swift */; };
+		C888A029288B278A0083DB35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888A028288B278A0083DB35 /* AppDelegate.swift */; };
+		C888A02B288B278A0083DB35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888A02A288B278A0083DB35 /* SceneDelegate.swift */; };
+		C888A02D288B278A0083DB35 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888A02C288B278A0083DB35 /* HomeViewController.swift */; };
+		C888A030288B278A0083DB35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C888A02E288B278A0083DB35 /* Main.storyboard */; };
+		C888A032288B278B0083DB35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C888A031288B278B0083DB35 /* Assets.xcassets */; };
+		C888A035288B278B0083DB35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C888A033288B278B0083DB35 /* LaunchScreen.storyboard */; };
+		C888A03F288B28660083DB35 /* ScanImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888A03E288B28660083DB35 /* ScanImageView.swift */; };
+		C888A041288B28880083DB35 /* ScanText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888A040288B28880083DB35 /* ScanText.swift */; };
+		C888A043288B28AF0083DB35 /* OcrTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C888A042288B28AF0083DB35 /* OcrTextView.swift */; };
+		C8ACCCBD2892DA920006DF35 /* SearchMenusByVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ACCCBC2892DA920006DF35 /* SearchMenusByVoice.swift */; };
+		C8E617AD288EFFED00CC0FCA /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E617AC288EFFED00CC0FCA /* ImagePicker.swift */; };
+		C8E617AF288F001800CC0FCA /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E617AE288F001800CC0FCA /* ImageSaver.swift */; };
+		C8E617B52891893C00CC0FCA /* RetrieveSavedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E617B42891893C00CC0FCA /* RetrieveSavedButton.swift */; };
+		C8E617B728918C0800CC0FCA /* SaveImagesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E617B628918C0800CC0FCA /* SaveImagesButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C856BAE728961C9E000CE23C /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		C856BAE92896D641000CE23C /* RestaurantMenuButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMenuButtons.swift; sourceTree = "<group>"; };
+		C856BAEB28976980000CE23C /* ClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearButton.swift; sourceTree = "<group>"; };
+		C856BAED289A286B000CE23C /* UpdateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateButton.swift; sourceTree = "<group>"; };
+		C888A025288B278A0083DB35 /* The Third Eye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Third Eye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C888A028288B278A0083DB35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C888A02A288B278A0083DB35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C888A02C288B278A0083DB35 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C888A02F288B278A0083DB35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C888A031288B278B0083DB35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C888A034288B278B0083DB35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C888A036288B278B0083DB35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C888A03E288B28660083DB35 /* ScanImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanImageView.swift; sourceTree = "<group>"; };
+		C888A040288B28880083DB35 /* ScanText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanText.swift; sourceTree = "<group>"; };
+		C888A042288B28AF0083DB35 /* OcrTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OcrTextView.swift; sourceTree = "<group>"; };
+		C8ACCCBC2892DA920006DF35 /* SearchMenusByVoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMenusByVoice.swift; sourceTree = "<group>"; };
+		C8E617AC288EFFED00CC0FCA /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		C8E617AE288F001800CC0FCA /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		C8E617B42891893C00CC0FCA /* RetrieveSavedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveSavedButton.swift; sourceTree = "<group>"; };
+		C8E617B628918C0800CC0FCA /* SaveImagesButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveImagesButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C888A022288B278A0083DB35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C888A01C288B278A0083DB35 = {
+			isa = PBXGroup;
+			children = (
+				C888A027288B278A0083DB35 /* The Third Eye */,
+				C888A026288B278A0083DB35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C888A026288B278A0083DB35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C888A025288B278A0083DB35 /* The Third Eye.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C888A027288B278A0083DB35 /* The Third Eye */ = {
+			isa = PBXGroup;
+			children = (
+				C888A028288B278A0083DB35 /* AppDelegate.swift */,
+				C888A02A288B278A0083DB35 /* SceneDelegate.swift */,
+				C856BAE728961C9E000CE23C /* Menu.swift */,
+				C888A02C288B278A0083DB35 /* HomeViewController.swift */,
+				C856BAED289A286B000CE23C /* UpdateButton.swift */,
+				C856BAEB28976980000CE23C /* ClearButton.swift */,
+				C856BAE92896D641000CE23C /* RestaurantMenuButtons.swift */,
+				C8ACCCBC2892DA920006DF35 /* SearchMenusByVoice.swift */,
+				C8E617B628918C0800CC0FCA /* SaveImagesButton.swift */,
+				C8E617B42891893C00CC0FCA /* RetrieveSavedButton.swift */,
+				C8E617AC288EFFED00CC0FCA /* ImagePicker.swift */,
+				C8E617AE288F001800CC0FCA /* ImageSaver.swift */,
+				C888A02E288B278A0083DB35 /* Main.storyboard */,
+				C888A031288B278B0083DB35 /* Assets.xcassets */,
+				C888A033288B278B0083DB35 /* LaunchScreen.storyboard */,
+				C888A036288B278B0083DB35 /* Info.plist */,
+				C888A03E288B28660083DB35 /* ScanImageView.swift */,
+				C888A040288B28880083DB35 /* ScanText.swift */,
+				C888A042288B28AF0083DB35 /* OcrTextView.swift */,
+			);
+			path = "The Third Eye";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C888A024288B278A0083DB35 /* The Third Eye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C888A039288B278B0083DB35 /* Build configuration list for PBXNativeTarget "The Third Eye" */;
+			buildPhases = (
+				C888A021288B278A0083DB35 /* Sources */,
+				C888A022288B278A0083DB35 /* Frameworks */,
+				C888A023288B278A0083DB35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Third Eye";
+			productName = "The Third Eye";
+			productReference = C888A025288B278A0083DB35 /* The Third Eye.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C888A01D288B278A0083DB35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C888A024288B278A0083DB35 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C888A020288B278A0083DB35 /* Build configuration list for PBXProject "The Third Eye" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C888A01C288B278A0083DB35;
+			productRefGroup = C888A026288B278A0083DB35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C888A024288B278A0083DB35 /* The Third Eye */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C888A023288B278A0083DB35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C888A035288B278B0083DB35 /* LaunchScreen.storyboard in Resources */,
+				C888A032288B278B0083DB35 /* Assets.xcassets in Resources */,
+				C888A030288B278A0083DB35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C888A021288B278A0083DB35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C888A041288B28880083DB35 /* ScanText.swift in Sources */,
+				C888A02D288B278A0083DB35 /* HomeViewController.swift in Sources */,
+				C8ACCCBD2892DA920006DF35 /* SearchMenusByVoice.swift in Sources */,
+				C888A03F288B28660083DB35 /* ScanImageView.swift in Sources */,
+				C888A029288B278A0083DB35 /* AppDelegate.swift in Sources */,
+				C8E617AF288F001800CC0FCA /* ImageSaver.swift in Sources */,
+				C856BAE828961C9E000CE23C /* Menu.swift in Sources */,
+				C888A043288B28AF0083DB35 /* OcrTextView.swift in Sources */,
+				C856BAEA2896D641000CE23C /* RestaurantMenuButtons.swift in Sources */,
+				C856BAEE289A286B000CE23C /* UpdateButton.swift in Sources */,
+				C8E617B728918C0800CC0FCA /* SaveImagesButton.swift in Sources */,
+				C8E617AD288EFFED00CC0FCA /* ImagePicker.swift in Sources */,
+				C888A02B288B278A0083DB35 /* SceneDelegate.swift in Sources */,
+				C8E617B52891893C00CC0FCA /* RetrieveSavedButton.swift in Sources */,
+				C856BAEC28976980000CE23C /* ClearButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C888A02E288B278A0083DB35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C888A02F288B278A0083DB35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C888A033288B278B0083DB35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C888A034288B278B0083DB35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C888A037288B278B0083DB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C888A038288B278B0083DB35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C888A03A288B278B0083DB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3382FGK2PW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The Third Eye/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please enable your camera for use";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abhinav.Bulusu.Third-Eye";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C888A03B288B278B0083DB35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3382FGK2PW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The Third Eye/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please enable your camera for use";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abhinav.Bulusu.Third-Eye";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C888A020288B278A0083DB35 /* Build configuration list for PBXProject "The Third Eye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C888A037288B278B0083DB35 /* Debug */,
+				C888A038288B278B0083DB35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C888A039288B278B0083DB35 /* Build configuration list for PBXNativeTarget "The Third Eye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C888A03A288B278B0083DB35 /* Debug */,
+				C888A03B288B278B0083DB35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C888A01D288B278A0083DB35 /* Project object */;
+}
