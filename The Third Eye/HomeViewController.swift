@@ -35,7 +35,7 @@ class HomeViewController: UIViewController, VNDocumentCameraViewControllerDelega
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
             label.center = CGPoint(x: 170, y: 95)
             label.textAlignment = .center
-        label.font = UIFont.boldSystemFont(ofSize: 27)
+        label.font = UIFont.boldSystemFont(ofSize: 26)
         
         
             label.text = "THE THIRD EYE"
