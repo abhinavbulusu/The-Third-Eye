@@ -284,7 +284,7 @@ class HomeViewController: UIViewController, VNDocumentCameraViewControllerDelega
         ocrRequest.recognitionLevel = .accurate
         ocrRequest.recognitionLanguages = ["en-US", "en-GB"]
         ocrRequest.usesLanguageCorrection = true
-        ocrTextView.isEditable = false
+        ocrTextView.isEditable = true
         
         
     }
